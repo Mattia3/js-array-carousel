@@ -1,0 +1,54 @@
+.image-container-left > img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.image-container-right > img{
+  height: 120px;
+  width: 100%;
+}
+
+.arrow-container{
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.arrow-background{
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.text-img > .titoli{
+  position: absolute;
+  bottom: 0;
+}
+
+.img-big-active{
+  z-index: 10;
+}
+
+.titoli{
+  position: absolute;
+  z-index: 11;
+  bottom: 38px;
+  color: white;
+  display: none;
+}
+.active{
+  opacity: 0.5;
+  display: block;
+}
